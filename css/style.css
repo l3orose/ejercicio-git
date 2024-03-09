@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body img{
+    width: 100%;
+
+}
+footer ul{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    justify-content: space-around;
+    background-color: rgb(51, 50, 50);
+    
+}
+footer li{
+    display: flex;
+    height: 50px;
+    align-items: center;
+        
+}
+footer li a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
